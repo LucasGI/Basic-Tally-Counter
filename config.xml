@@ -1,12 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.cosoftstudios.tallyCounter" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Basic Tally Counter</name>
+    <platform name="android">
+        <icon src="www/assets/res/mipmap-mdpi/ic_launcher.png" density="mdpi" />
+        <icon src="www/assets/res/mipmap-hdpi/ic_launcher.png" density="hdpi" />
+        <icon src="www/assets/res/mipmap-xhdpi/ic_launcher.png" density="xhdpi" />
+        <icon src="www/assets/res/mipmap-xxhdpi/ic_launcher.png" density="xxhdpi" />
+            <icon src="www/assets/res/mipmap-xxxhdpi/ic_launcher.png" density="xxxhdpi" />
+        <preference name="DisallowOverscroll" value="true"/>
+    </platform>
     <description>
-        A blank PhoneGap app.
+        A simple tally counter.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="null" href="http://github.com/LucasGI">
+        LucasGI
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <engine name="android" spec="~7.0.0" />
 </widget>
