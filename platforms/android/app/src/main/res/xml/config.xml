@@ -2,12 +2,18 @@
 <widget id="com.cosoftstudios.tallyCounter" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Basic Tally Counter</name>
     <description>
-        A blank PhoneGap app.
+        A simple tally counter.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="null" href="http://github.com/LucasGI">
+        LucasGI
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <icon density="mdpi" src="www/assets/res/mipmap-mdpi/ic_launcher.png" />
+    <icon density="hdpi" src="www/assets/res/mipmap-hdpi/ic_launcher.png" />
+    <icon density="xhdpi" src="www/assets/res/mipmap-xhdpi/ic_launcher.png" />
+    <icon density="xxhdpi" src="www/assets/res/mipmap-xxhdpi/ic_launcher.png" />
+    <icon density="xxxhdpi" src="www/assets/res/mipmap-xxxhdpi/ic_launcher.png" />
     <preference name="loglevel" value="DEBUG" />
+    <preference name="DisallowOverscroll" value="true" />
 </widget>
