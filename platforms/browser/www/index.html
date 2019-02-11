@@ -3,49 +3,32 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-        <title>Blank App</title>
-        <link rel="stylesheet" href="materialize/css/materialize.min.css">
+        <title>Basic Tally Counter</title>
         <link rel="stylesheet" href="material-icons/material-icon.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <script type="text/javascript" src="cordova.js"></script>
-        <nav class="black">
-            <div class="nav-wrapper center">
-              <a href="#" class="logo center">Basic Tally Counter</a>
+      <nav>
+        <p class="title">Basic Tally Counter</p>
+      </nav>
+      <main>
+      </main>
+      <footer class="page-footer black">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <p class="grey-text text-lighten-4">App by: LucasGI, created using materialize and PhoneGap</p>
             </div>
-          </nav>
-        <main class="center valign-wrapper">
-            <div class="container margin top small margin bottom small">
-              <div class="col">
-                <div class="row border-solid bottom small">
-                  <h3>Total:</h3>
-                  <div class="row">
-                    <h5 id="display" class="margin bottom small">0</h5>
-                  </div>
-                </div>
-                <div class="row">
-                  <a class="btn-floating btn-tally waves-effect waves-light grey" onclick="count()"></a>
-                </div>
-              </div>
-            </div>
-        </main>
-        <footer class="page-footer black">
-            <div class="container">
-              <div class="row">
-                <div class="col l6 s12">
-                  <p class="grey-text text-lighten-4">App by: LucasGI, created using materialize and PhoneGap</p>
-                </div>
-              </div>
-            </div>
-            <div class="footer-copyright">
-              <div class="container">
-                  https://github.com/LucasGI/Basic-Tally-Counter
-              </div>
-            </div>
-          </footer>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            https://github.com/LucasGI/Basic-Tally-Counter
+          </div>
+        </div>
+      </footer>
     </body>
+    <script type="text/javascript" src="cordova.js"></script>
     <script src="jQuery/jquery-3.3.1.min.js"></script>
-    <script src="materialize/js/materialize.min.js"></script>
     <script src="app.js"></script>
 </html>

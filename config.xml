@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.cosoftstudios.tallyCounter" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.gamerriotz.tallyCounter" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Basic Tally Counter</name>
     <platform name="android">
-        <icon src="www/assets/res/mipmap-mdpi/ic_launcher.png" density="mdpi" />
-        <icon src="www/assets/res/mipmap-hdpi/ic_launcher.png" density="hdpi" />
-        <icon src="www/assets/res/mipmap-xhdpi/ic_launcher.png" density="xhdpi" />
-        <icon src="www/assets/res/mipmap-xxhdpi/ic_launcher.png" density="xxhdpi" />
-            <icon src="www/assets/res/mipmap-xxxhdpi/ic_launcher.png" density="xxxhdpi" />
-        <preference name="DisallowOverscroll" value="true"/>
+        <icon density="mdpi" src="www/assets/res/mipmap-mdpi/ic_launcher.png" />
+        <icon density="hdpi" src="www/assets/res/mipmap-hdpi/ic_launcher.png" />
+        <icon density="xhdpi" src="www/assets/res/mipmap-xhdpi/ic_launcher.png" />
+        <icon density="xxhdpi" src="www/assets/res/mipmap-xxhdpi/ic_launcher.png" />
+        <icon density="xxxhdpi" src="www/assets/res/mipmap-xxxhdpi/ic_launcher.png" />
+        <preference name="DisallowOverscroll" value="true" />
     </platform>
     <description>
         A simple tally counter.
     </description>
     <author email="null" href="http://github.com/LucasGI">
-        LucasGI
+        GamerRiotz
     </author>
     <content src="index.html" />
     <access origin="*" />

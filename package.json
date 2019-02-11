@@ -1,0 +1,13 @@
+{
+  "name": "com.cosoftstudios.tallycounter",
+  "version": "1.0.0",
+  "displayName": "Basic Tally Counter",
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {
+    "cordova-android": "~7.0.0"
+  }
+}
